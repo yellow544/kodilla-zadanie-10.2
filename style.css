@@ -1,0 +1,15 @@
+#carousel {
+	margin: 0 auto;
+	width: 700px;
+	height: 500px;
+	overflow: hidden;
+}
+
+#carousel ul {
+	width: 3500px;
+}
+
+#carousel ul li {
+	list-style: none;
+	float: left;
+}
