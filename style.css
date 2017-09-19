@@ -3,6 +3,7 @@
 	width: 700px;
 	height: 500px;
 	overflow: hidden;
+	position: relative;
 }
 
 #carousel ul {
@@ -13,3 +14,61 @@
 	list-style: none;
 	float: left;
 }
+
+.arrows button  {
+	color: #FF0000;
+	position: absolute;
+	top: 200px;
+	background: transparent;
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;	
+}
+
+button:focus {outline: 0;}
+
+.next {
+	right: 20px;
+	cursor: pointer;
+}
+
+.prev {
+	left: 20px;
+}
+
+.indicators button {
+	color: #FFD700;
+	position: absolute;
+	top: 430px;
+	background: transparent;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	border: 0;	
+}
+
+.dots-1 {
+	left: 250px;
+}
+
+.dots-2 {
+	left: 280px;
+}
+
+.dots-3 {
+	left: 310px;
+}
+
+.dots-4 {
+	left: 340px;
+}
+
+.dots-5 {
+	left: 370px;
+}
+
+.indicators button.active {
+	font-size: 24px;
+}
+
+

@@ -11,5 +11,17 @@ $(function() {
 		lastItem.after(firstItem);
 		carouselList.css({marginLeft: 0});
 	}
+
+
+});
+
+$('#indicators button').on('click', function() {
+  $('button').removeClass('active');
+  $(this).addClass('active');
+  var index = $('button').index($(this));
+  $.each($('button'), function(index, item) {
+    
+  });
+  
 });
 
